@@ -18,7 +18,7 @@ public class ImageRetrieverFromTwitter {
         try {
          twitter.timelineOperations().updateStatus(text);
       } catch (RuntimeException ex) {
-         logger.error("Unable to tweet" + text, ex);
+         logger.error("Unable to send tweet" + text, ex);
       }
     }
 
