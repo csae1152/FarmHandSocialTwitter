@@ -2,6 +2,7 @@ package com.farmhand.controller.twitter;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.social.twitter.api.Tweet;
 import org.springframework.social.twitter.api.Twitter;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,8 +21,7 @@ public class TwitterController {
     private Twitter twitter;
     
     public List<Tweet> getTweets(@PathVariable final String farmhand) {
+        return null;
         
     } 
-    
-    
 }
