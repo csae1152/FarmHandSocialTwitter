@@ -23,7 +23,7 @@ public class SocialConfigurationTemplate {
      */
     @Bean
     public SocialTemplateConnector twitterConfigTemplate() throws Exception {
-        return null;
+        return newTwitterTemplate;
         
         
     }
