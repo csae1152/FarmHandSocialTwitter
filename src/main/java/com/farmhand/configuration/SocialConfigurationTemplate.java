@@ -22,7 +22,7 @@ public class SocialConfigurationTemplate {
      * @throws Exception 
      */
     @Bean
-    public SocialTemplateConnector twitterConfigTemplate() throws Exception {
+    public SocialTemplateConnectorAbstract twitterConfigTemplate() throws Exception {
         return newTwitterTemplate;
         
         
