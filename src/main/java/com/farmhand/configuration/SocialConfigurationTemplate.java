@@ -23,9 +23,12 @@ public class SocialConfigurationTemplate {
      */
     @Bean
     public SocialTemplateConnectorAbstract twitterConfigTemplate() throws Exception {
-        return newTwitterTemplate;
-        
-        
+        return newTwitterTemplate;      
+    }
+    
+    @Inject
+    public Loader(Social social) {
+         return social.load();
     }
     
 }
