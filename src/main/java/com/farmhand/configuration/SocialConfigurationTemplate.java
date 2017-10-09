@@ -28,7 +28,7 @@ public class SocialConfigurationTemplate {
     
     @Inject
     public Loader(Social social) {
-         return social.load();
+         return social.load(String status);
     }
     
 }
