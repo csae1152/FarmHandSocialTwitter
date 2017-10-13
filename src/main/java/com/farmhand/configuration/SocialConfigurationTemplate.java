@@ -31,4 +31,8 @@ public class SocialConfigurationTemplate {
          return social.load(String status);
     }
     
+    public getTweetCount() {
+     this.count = 0;   
+    }
+    
 }
