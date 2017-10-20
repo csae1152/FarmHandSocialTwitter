@@ -21,6 +21,7 @@ public class TwitterController {
     private Twitter twitter;
     
     public List<Tweet> getTweets(@PathVariable final String farmhand) {
+        private String pathUrl;
         return null;
         
     } 
