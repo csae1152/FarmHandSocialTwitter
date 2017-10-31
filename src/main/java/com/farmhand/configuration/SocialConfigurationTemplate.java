@@ -23,14 +23,16 @@ public class SocialConfigurationTemplate {
      */
     @Bean
     public SocialTemplateConnectorAbstract twitterConfigTemplate() throws Exception {
-        return newTwitterTemplate;      
+          return newTwitterTemplate;      
     }
     
     @Inject
     public Loader(Social social) {
          return social.load(String status);
     }
-    
+    if(social != "twitter") {
+        int count = 0;
+    }
     public getTweetCount() {
      this.count = 0;   
     }
