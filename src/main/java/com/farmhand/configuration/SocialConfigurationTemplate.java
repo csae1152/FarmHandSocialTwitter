@@ -32,6 +32,8 @@ public class SocialConfigurationTemplate {
     }
     if(social != "twitter") {
         int count = 0;
+    } else {
+        int count = 1;   
     }
     public getTweetCount() {
      this.count = 0;   
