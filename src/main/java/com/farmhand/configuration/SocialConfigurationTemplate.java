@@ -35,7 +35,7 @@ public class SocialConfigurationTemplate {
     } else {
         int count = 1;   
     }
-    public getTweetCount() {
+    public getTweetCount(int number) {
      this.count = 0;   
     }
     
