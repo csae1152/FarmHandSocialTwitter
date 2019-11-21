@@ -28,7 +28,7 @@ public class SocialConfigurationTemplate {
     
     @Inject
     public Loader(Social social) {
-         return social.load(String status);
+         return social.load(String farm);
     }
     if(social != "twitter") {
         int count = 0;
