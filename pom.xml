@@ -5,7 +5,7 @@
   <groupId>com.farmhand.backend.social.twitter</groupId>  
   <artifactId>com.farmhand.twitter</artifactId>  
   <version>0.0.1-SNAPSHOT</version>  
-  <packaging>war</packaging>  
+  <packaging>jar</packaging>  
   <name>Twitter Connector</name>  
   <description>Connects the main application to Twitter for retreiving retina images.</description>  
   <parent> 
